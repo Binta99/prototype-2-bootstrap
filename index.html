@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="docs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="docs/style.css" />
+    <title>Prototype-2-bootstrap</title>
+  </head>
+
+  <body>
+    <section class="header-wrapper">
+      <div class="container-fluid text-center mt-5">
+        <p class="text-danger fw-bold fs-1 mb-0">
+          A FREE BOOTSTRAP BUSINESS THEME
+        </p>
+        <h1 class="text-white display-1 pb-5">BUSINESS CUSUAL</h1>
+      </div>
+
+      <div class="container-fluid background-nav py-4 mt-5">
+        <nav class="navbar navbar-expand-md text-white">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler bg-light"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-evenly"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-4 text-uppercase" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fs-4 text-uppercase"
+                    href="about.html"
+                    >About</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fs-4 text-uppercase"
+                    href="products.html"
+                    >PRODUCTS</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white fs-4 text-uppercase"
+                    href="store.html"
+                    >STORE</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ---------work------- -->
+
+    <section class="index-work">
+      <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-lg-5 mt-3 position">
+            <div class="card bg-warning-subtle text-center py-4 px-5">
+              <div class="card-body">
+                <h5 class="card-title fs-6">FRESH COFEE</h5>
+                <h4 class="card-subtitle mb-2 fs-1 display-1">WORK DRINKING</h4>
+                <p class="card-text my-3">
+                  Lorem ipsum dolor sit amet,<br />
+                  consectetur adipiscing elit. <br />
+                  Sollicitudin nunc felis, nullam ornare. <br />
+                  Amet vestibulum porttitor vel mauris <br />
+                  dolor. Sodales eu aliquam leo sed.
+                </p>
+
+                <a
+                  href="#"
+                  class="btn bouton-position text-white px-lg-5 px-sm-4"
+                  >Visit Us</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-7 mt-3">
+            <img src="docs/unsplash_GFrBMipOd_E.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------to youttt -->
+    <section class="index-partie-to-you-wrapper">
+      <div
+        class="container-luid bg-danger bg-opacity-75 my-5 py-5 justify-content-center"
+      >
+        <div class="index-cards w-50 mx-auto">
+          <div class="card bg-warning-subtle text-center py-3">
+            <div class="card-body">
+              <h5 class="card-title fs-6">OUR PROMISE</h5>
+              <h6 class="card-subtitle mb-2 fs-4 display-6">TO YOU</h6>
+              <p class="card-text my-3">
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit. <br />
+                Sollicitudin nunc felis, nullam ornare. <br />
+                Amet vestibulum porttitor vel mauris <br />
+                dolor. Sodales eu aliquam leo sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------footer--------------- -->
+
+    <section class="footer-wrapper">
+      <div class="container-fluid background-footer py-4">
+        <p class="text-center text-white">
+          Copyright <span class="border rounded-5">c</span> Wibesite 2021
+        </p>
+      </div>
+    </section>
+    <!-- script----------------- -->
+    <script src="docs/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/740f733f02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background-image: url(raisins-fleurs-sechees.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-nav {
+  background: #490909;
+}
+
+/* --footer--------------- */
+
+.background-footer {
+  background: #311919;
+}
+
+/* fichier index-------------------------------------------------------- */
+
+.index-work .position {
+  position: relative;
+  left: 120px;
+}
+
+.index-work .bouton-position {
+  background: #7b261a;
+  position: relative;
+  top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .index-work .position {
+    position: static;
+  }
+
+  /* ---fichier-about-- */
+
+  .about-card .position {
+    position: relative;
+    bottom: 70px;
+  }
+}
+
+/* --------------------fichier-about--------------------- */
+.about-card .position {
+  position: relative;
+  bottom: 100px;
+}
+
+/* -----------fichier products--------------(----------------- */
+
+.products-work .position {
+  position: relative;
+  top: 50px;
+}
+
+.products-work .position1 {
+  position: relative;
+  bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .products-work .position {
+    position: static;
+  }
+}
